@@ -1429,6 +1429,11 @@ img.blog-image:hover {
 }
 /*footer end*/
 
+body .uwy.userway_p1 .userway_buttons_wrapper {
+    top: initial !important;
+    bottom: 13px !important;
+}
+
 /*responsive breakpoints*/
 @media(max-width:1400px) {
 	.container {
@@ -1915,6 +1920,10 @@ img.blog-image:hover {
 
 	.top-navigation .top-bar {
 		display: none;
+	}
+
+	.header-inner .header-menu{
+		top: 72px;
 	}
 
 	.hero-section {
